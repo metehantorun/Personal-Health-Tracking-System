@@ -1,0 +1,39 @@
+.root {
+    -fx-font-family: 'Segoe UI', Arial, sans-serif;
+    -fx-background-image: url("../images/arkaplan.png");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+.label {
+    -fx-text-fill: #222;
+}
+.table-view {
+    -fx-background-color: rgba(255, 255, 255, 0.8);
+    -fx-border-radius: 8;
+}
+.button {
+    -fx-background-color: #e0f0ff;
+    -fx-background-radius: 8;
+    -fx-font-size: 16px;
+}
+.save-exit-button {
+    -fx-background-color: #FFC107;
+    -fx-text-fill: black;
+}
+.list-view {
+    -fx-background-color: rgba(255, 255, 255, 0.8);
+    -fx-border-radius: 8;
+}
+.online-randevu-button {
+    -fx-background-color: #FF0000;
+    -fx-text-fill: white;
+}
+.summary-box {
+    -fx-border-color: #a0a0a0;
+    -fx-border-radius: 10;
+    -fx-border-width: 2;
+    -fx-background-color: rgba(255, 255, 255, 0.9);
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0, 0, 0);
+}

@@ -1,0 +1,59 @@
+.root, .border-pane, .background, .center {
+    -fx-background-color: #23272e;
+}
+
+.label {
+    -fx-text-fill: #e0e0e0;
+}
+
+.button {
+    -fx-background-color: #2c313a;
+    -fx-text-fill: #e0e0e0;
+    -fx-background-radius: 8;
+}
+
+.button:hover {
+    -fx-background-color: #3a3f4b;
+}
+
+.table-view, .table-row-cell, .table-cell {
+    -fx-background-color: #23272e;
+    -fx-text-fill: #e0e0e0;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #3a3f4b;
+}
+
+.menu-bar {
+    -fx-background-color: #2c313a;
+}
+
+.menu, .menu-item {
+    -fx-text-fill: #e0e0e0;
+}
+
+.list-view {
+    -fx-background-color: #23272e;
+    -fx-control-inner-background: #23272e;
+    -fx-text-fill: #e0e0e0;
+}
+
+.text-field, .text-area {
+    -fx-background-color: #2c313a;
+    -fx-text-fill: #e0e0e0;
+    -fx-prompt-text-fill: #888;
+    -fx-background-radius: 6;
+}
+
+.dialog-pane {
+    -fx-background-color: #23272e;
+}
+
+.dialog-pane .label {
+    -fx-text-fill: #e0e0e0;
+}
+
+.separator {
+    -fx-background-color: #444;
+}
